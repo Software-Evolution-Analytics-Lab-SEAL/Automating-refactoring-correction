@@ -1,0 +1,321 @@
+project_id,model,model_category,prompt_setting,shot_count,scope,n_generated,n_valid_refactorings,n_pass,n_fail,valid_refactoring_rate_pct,pass_at_1_pct
+P01,StarCoder2,open-source code model,0-shot,0,method-level,500,462,269,193,92.4,58.2
+P01,StarCoder2,open-source code model,0-shot,0,class-level,500,467,267,200,93.4,57.2
+P01,StarCoder2,open-source code model,1-shot,1,method-level,500,464,254,210,92.8,54.7
+P01,StarCoder2,open-source code model,1-shot,1,class-level,500,463,261,202,92.6,56.4
+P01,StarCoder2,open-source code model,3-shot,3,method-level,500,466,260,206,93.2,55.8
+P01,StarCoder2,open-source code model,3-shot,3,class-level,500,456,261,195,91.2,57.2
+P01,StarCoder2,open-source code model,5-shot,5,method-level,500,461,262,199,92.2,56.8
+P01,StarCoder2,open-source code model,5-shot,5,class-level,500,452,255,197,90.4,56.4
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,478,312,166,95.6,65.3
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,474,311,163,94.8,65.6
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,476,292,184,95.2,61.3
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,469,303,166,93.8,64.6
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,476,302,174,95.2,63.4
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,466,300,166,93.2,64.4
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,471,312,159,94.2,66.2
+P01,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,473,311,162,94.6,65.8
+P01,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,474,324,150,94.8,68.4
+P01,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,480,340,140,96.0,70.8
+P01,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,473,328,145,94.6,69.3
+P01,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,486,348,138,97.2,71.6
+P01,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,486,336,150,97.2,69.1
+P01,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,474,334,140,94.8,70.5
+P01,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,476,333,143,95.2,70.0
+P01,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,480,346,134,96.0,72.1
+P01,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,485,346,139,97.0,71.3
+P01,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,476,351,125,95.2,73.7
+P01,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,481,357,124,96.2,74.2
+P01,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,479,333,146,95.8,69.5
+P01,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,478,357,121,95.6,74.7
+P01,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,481,354,127,96.2,73.6
+P01,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,486,361,125,97.2,74.3
+P01,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,473,351,122,94.6,74.2
+P02,StarCoder2,open-source code model,0-shot,0,method-level,500,470,293,177,94.0,62.3
+P02,StarCoder2,open-source code model,0-shot,0,class-level,500,460,292,168,92.0,63.5
+P02,StarCoder2,open-source code model,1-shot,1,method-level,500,459,257,202,91.8,56.0
+P02,StarCoder2,open-source code model,1-shot,1,class-level,500,471,280,191,94.2,59.4
+P02,StarCoder2,open-source code model,3-shot,3,method-level,500,448,269,179,89.6,60.0
+P02,StarCoder2,open-source code model,3-shot,3,class-level,500,459,263,196,91.8,57.3
+P02,StarCoder2,open-source code model,5-shot,5,method-level,500,471,269,202,94.2,57.1
+P02,StarCoder2,open-source code model,5-shot,5,class-level,500,469,272,197,93.8,58.0
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,473,312,161,94.6,66.0
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,465,320,145,93.0,68.8
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,486,338,148,97.2,69.5
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,465,316,149,93.0,68.0
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,483,315,168,96.6,65.2
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,476,333,143,95.2,70.0
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,471,307,164,94.2,65.2
+P02,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,472,320,152,94.4,67.8
+P02,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,474,340,134,94.8,71.7
+P02,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,475,347,128,95.0,73.1
+P02,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,486,350,136,97.2,72.0
+P02,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,480,355,125,96.0,74.0
+P02,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,473,352,121,94.6,74.4
+P02,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,482,361,121,96.4,74.9
+P02,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,477,361,116,95.4,75.7
+P02,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,474,347,127,94.8,73.2
+P02,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,482,371,111,96.4,77.0
+P02,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,478,346,132,95.6,72.4
+P02,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,482,364,118,96.4,75.5
+P02,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,485,361,124,97.0,74.4
+P02,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,480,353,127,96.0,73.5
+P02,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,481,359,122,96.2,74.6
+P02,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,482,359,123,96.4,74.5
+P02,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,485,359,126,97.0,74.0
+P03,StarCoder2,open-source code model,0-shot,0,method-level,500,463,300,163,92.6,64.8
+P03,StarCoder2,open-source code model,0-shot,0,class-level,500,467,288,179,93.4,61.7
+P03,StarCoder2,open-source code model,1-shot,1,method-level,500,474,288,186,94.8,60.8
+P03,StarCoder2,open-source code model,1-shot,1,class-level,500,460,272,188,92.0,59.1
+P03,StarCoder2,open-source code model,3-shot,3,method-level,500,458,274,184,91.6,59.8
+P03,StarCoder2,open-source code model,3-shot,3,class-level,500,464,268,196,92.8,57.8
+P03,StarCoder2,open-source code model,5-shot,5,method-level,500,459,287,172,91.8,62.5
+P03,StarCoder2,open-source code model,5-shot,5,class-level,500,462,299,163,92.4,64.7
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,464,318,146,92.8,68.5
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,477,338,139,95.4,70.9
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,463,323,140,92.6,69.8
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,475,314,161,95.0,66.1
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,481,349,132,96.2,72.6
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,474,312,162,94.8,65.8
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,471,327,144,94.2,69.4
+P03,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,468,308,160,93.6,65.8
+P03,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,471,344,127,94.2,73.0
+P03,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,476,358,118,95.2,75.2
+P03,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,478,361,117,95.6,75.5
+P03,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,473,350,123,94.6,74.0
+P03,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,483,372,111,96.6,77.0
+P03,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,477,358,119,95.4,75.1
+P03,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,474,371,103,94.8,78.3
+P03,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,467,341,126,93.4,73.0
+P03,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,486,354,132,97.2,72.8
+P03,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,470,358,112,94.0,76.2
+P03,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,483,363,120,96.6,75.2
+P03,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,469,365,104,93.8,77.8
+P03,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,487,381,106,97.4,78.2
+P03,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,489,372,117,97.8,76.1
+P03,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,476,352,124,95.2,73.9
+P03,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,480,367,113,96.0,76.5
+P04,StarCoder2,open-source code model,0-shot,0,method-level,500,458,303,155,91.6,66.2
+P04,StarCoder2,open-source code model,0-shot,0,class-level,500,463,291,172,92.6,62.9
+P04,StarCoder2,open-source code model,1-shot,1,method-level,500,462,273,189,92.4,59.1
+P04,StarCoder2,open-source code model,1-shot,1,class-level,500,463,299,164,92.6,64.6
+P04,StarCoder2,open-source code model,3-shot,3,method-level,500,469,287,182,93.8,61.2
+P04,StarCoder2,open-source code model,3-shot,3,class-level,500,456,285,171,91.2,62.5
+P04,StarCoder2,open-source code model,5-shot,5,method-level,500,456,301,155,91.2,66.0
+P04,StarCoder2,open-source code model,5-shot,5,class-level,500,449,282,167,89.8,62.8
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,473,341,132,94.6,72.1
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,460,320,140,92.0,69.6
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,480,363,117,96.0,75.6
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,460,327,133,92.0,71.1
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,482,338,144,96.4,70.1
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,485,340,145,97.0,70.1
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,472,326,146,94.4,69.1
+P04,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,468,333,135,93.6,71.2
+P04,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,479,373,106,95.8,77.9
+P04,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,479,360,119,95.8,75.2
+P04,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,481,364,117,96.2,75.7
+P04,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,488,376,112,97.6,77.0
+P04,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,474,358,116,94.8,75.5
+P04,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,477,364,113,95.4,76.3
+P04,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,479,363,116,95.8,75.8
+P04,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,474,365,109,94.8,77.0
+P04,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,480,367,113,96.0,76.5
+P04,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,477,369,108,95.4,77.4
+P04,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,481,401,80,96.2,83.4
+P04,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,481,367,114,96.2,76.3
+P04,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,481,367,114,96.2,76.3
+P04,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,483,374,109,96.6,77.4
+P04,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,474,385,89,94.8,81.2
+P04,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,474,371,103,94.8,78.3
+P05,StarCoder2,open-source code model,0-shot,0,method-level,500,458,307,151,91.6,67.0
+P05,StarCoder2,open-source code model,0-shot,0,class-level,500,467,315,152,93.4,67.5
+P05,StarCoder2,open-source code model,1-shot,1,method-level,500,469,286,183,93.8,61.0
+P05,StarCoder2,open-source code model,1-shot,1,class-level,500,470,299,171,94.0,63.6
+P05,StarCoder2,open-source code model,3-shot,3,method-level,500,455,291,164,91.0,64.0
+P05,StarCoder2,open-source code model,3-shot,3,class-level,500,457,285,172,91.4,62.4
+P05,StarCoder2,open-source code model,5-shot,5,method-level,500,448,289,159,89.6,64.5
+P05,StarCoder2,open-source code model,5-shot,5,class-level,500,457,301,156,91.4,65.9
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,469,337,132,93.8,71.9
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,463,330,133,92.6,71.3
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,473,347,126,94.6,73.4
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,479,349,130,95.8,72.9
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,465,342,123,93.0,73.5
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,481,340,141,96.2,70.7
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,470,336,134,94.0,71.5
+P05,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,460,337,123,92.0,73.3
+P05,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,484,390,94,96.8,80.6
+P05,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,477,373,104,95.4,78.2
+P05,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,467,362,105,93.4,77.5
+P05,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,462,339,123,92.4,73.4
+P05,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,484,367,117,96.8,75.8
+P05,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,471,365,106,94.2,77.5
+P05,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,483,361,122,96.6,74.7
+P05,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,476,370,106,95.2,77.7
+P05,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,482,374,108,96.4,77.6
+P05,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,478,388,90,95.6,81.2
+P05,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,480,392,88,96.0,81.7
+P05,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,480,393,87,96.0,81.9
+P05,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,480,380,100,96.0,79.2
+P05,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,485,386,99,97.0,79.6
+P05,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,468,377,91,93.6,80.6
+P05,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,474,381,93,94.8,80.4
+P06,StarCoder2,open-source code model,0-shot,0,method-level,500,462,307,155,92.4,66.5
+P06,StarCoder2,open-source code model,0-shot,0,class-level,500,471,320,151,94.2,67.9
+P06,StarCoder2,open-source code model,1-shot,1,method-level,500,454,292,162,90.8,64.3
+P06,StarCoder2,open-source code model,1-shot,1,class-level,500,460,296,164,92.0,64.3
+P06,StarCoder2,open-source code model,3-shot,3,method-level,500,461,296,165,92.2,64.2
+P06,StarCoder2,open-source code model,3-shot,3,class-level,500,470,301,169,94.0,64.0
+P06,StarCoder2,open-source code model,5-shot,5,method-level,500,457,298,159,91.4,65.2
+P06,StarCoder2,open-source code model,5-shot,5,class-level,500,460,294,166,92.0,63.9
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,481,359,122,96.2,74.6
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,478,360,118,95.6,75.3
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,474,358,116,94.8,75.5
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,467,340,127,93.4,72.8
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,472,354,118,94.4,75.0
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,473,353,120,94.6,74.6
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,464,325,139,92.8,70.0
+P06,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,462,340,122,92.4,73.6
+P06,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,481,381,100,96.2,79.2
+P06,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,484,373,111,96.8,77.1
+P06,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,474,364,110,94.8,76.8
+P06,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,485,380,105,97.0,78.4
+P06,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,484,363,121,96.8,75.0
+P06,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,478,376,102,95.6,78.7
+P06,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,481,374,107,96.2,77.8
+P06,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,473,361,112,94.6,76.3
+P06,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,489,408,81,97.8,83.4
+P06,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,474,407,67,94.8,85.9
+P06,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,482,385,97,96.4,79.9
+P06,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,484,389,95,96.8,80.4
+P06,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,488,394,94,97.6,80.7
+P06,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,490,385,105,98.0,78.6
+P06,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,477,379,98,95.4,79.5
+P06,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,464,380,84,92.8,81.9
+P07,StarCoder2,open-source code model,0-shot,0,method-level,500,456,307,149,91.2,67.3
+P07,StarCoder2,open-source code model,0-shot,0,class-level,500,466,324,142,93.2,69.5
+P07,StarCoder2,open-source code model,1-shot,1,method-level,500,464,303,161,92.8,65.3
+P07,StarCoder2,open-source code model,1-shot,1,class-level,500,459,291,168,91.8,63.4
+P07,StarCoder2,open-source code model,3-shot,3,method-level,500,461,309,152,92.2,67.0
+P07,StarCoder2,open-source code model,3-shot,3,class-level,500,459,313,146,91.8,68.2
+P07,StarCoder2,open-source code model,5-shot,5,method-level,500,454,316,138,90.8,69.6
+P07,StarCoder2,open-source code model,5-shot,5,class-level,500,456,322,134,91.2,70.6
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,481,364,117,96.2,75.7
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,473,348,125,94.6,73.6
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,462,353,109,92.4,76.4
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,475,355,120,95.0,74.7
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,467,343,124,93.4,73.4
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,471,350,121,94.2,74.3
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,469,345,124,93.8,73.6
+P07,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,474,356,118,94.8,75.1
+P07,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,468,373,95,93.6,79.7
+P07,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,481,373,108,96.2,77.5
+P07,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,485,390,95,97.0,80.4
+P07,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,480,391,89,96.0,81.5
+P07,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,478,383,95,95.6,80.1
+P07,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,476,391,85,95.2,82.1
+P07,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,474,378,96,94.8,79.7
+P07,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,470,378,92,94.0,80.4
+P07,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,475,396,79,95.0,83.4
+P07,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,483,407,76,96.6,84.3
+P07,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,484,402,82,96.8,83.1
+P07,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,485,410,75,97.0,84.5
+P07,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,476,396,80,95.2,83.2
+P07,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,481,397,84,96.2,82.5
+P07,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,480,389,91,96.0,81.0
+P07,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,478,383,95,95.6,80.1
+P08,StarCoder2,open-source code model,0-shot,0,method-level,500,468,325,143,93.6,69.4
+P08,StarCoder2,open-source code model,0-shot,0,class-level,500,457,311,146,91.4,68.1
+P08,StarCoder2,open-source code model,1-shot,1,method-level,500,464,315,149,92.8,67.9
+P08,StarCoder2,open-source code model,1-shot,1,class-level,500,460,310,150,92.0,67.4
+P08,StarCoder2,open-source code model,3-shot,3,method-level,500,469,316,153,93.8,67.4
+P08,StarCoder2,open-source code model,3-shot,3,class-level,500,460,317,143,92.0,68.9
+P08,StarCoder2,open-source code model,5-shot,5,method-level,500,459,303,156,91.8,66.0
+P08,StarCoder2,open-source code model,5-shot,5,class-level,500,448,303,145,89.6,67.6
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,465,339,126,93.0,72.9
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,476,349,127,95.2,73.3
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,474,365,109,94.8,77.0
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,477,363,114,95.4,76.1
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,472,363,109,94.4,76.9
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,464,361,103,92.8,77.8
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,468,360,108,93.6,76.9
+P08,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,472,358,114,94.4,75.8
+P08,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,490,413,77,98.0,84.3
+P08,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,471,407,64,94.2,86.4
+P08,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,475,390,85,95.0,82.1
+P08,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,480,383,97,96.0,79.8
+P08,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,481,387,94,96.2,80.5
+P08,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,473,383,90,94.6,81.0
+P08,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,472,386,86,94.4,81.8
+P08,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,465,376,89,93.0,80.9
+P08,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,478,423,55,95.6,88.5
+P08,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,474,394,80,94.8,83.1
+P08,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,474,418,56,94.8,88.2
+P08,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,485,423,62,97.0,87.2
+P08,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,475,402,73,95.0,84.6
+P08,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,486,407,79,97.2,83.7
+P08,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,479,391,88,95.8,81.6
+P08,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,475,391,84,95.0,82.3
+P09,StarCoder2,open-source code model,0-shot,0,method-level,500,474,351,123,94.8,74.1
+P09,StarCoder2,open-source code model,0-shot,0,class-level,500,460,336,124,92.0,73.0
+P09,StarCoder2,open-source code model,1-shot,1,method-level,500,460,320,140,92.0,69.6
+P09,StarCoder2,open-source code model,1-shot,1,class-level,500,462,311,151,92.4,67.3
+P09,StarCoder2,open-source code model,3-shot,3,method-level,500,466,314,152,93.2,67.4
+P09,StarCoder2,open-source code model,3-shot,3,class-level,500,456,318,138,91.2,69.7
+P09,StarCoder2,open-source code model,5-shot,5,method-level,500,465,320,145,93.0,68.8
+P09,StarCoder2,open-source code model,5-shot,5,class-level,500,459,324,135,91.8,70.6
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,481,365,116,96.2,75.9
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,483,365,118,96.6,75.6
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,461,361,100,92.2,78.3
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,477,343,134,95.4,71.9
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,469,362,107,93.8,77.2
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,471,355,116,94.2,75.4
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,465,364,101,93.0,78.3
+P09,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,479,364,115,95.8,76.0
+P09,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,478,393,85,95.6,82.2
+P09,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,468,386,82,93.6,82.5
+P09,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,472,385,87,94.4,81.6
+P09,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,477,407,70,95.4,85.3
+P09,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,467,382,85,93.4,81.8
+P09,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,473,383,90,94.6,81.0
+P09,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,474,383,91,94.8,80.8
+P09,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,473,372,101,94.6,78.6
+P09,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,476,414,62,95.2,87.0
+P09,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,472,407,65,94.4,86.2
+P09,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,477,416,61,95.4,87.2
+P09,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,471,407,64,94.2,86.4
+P09,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,489,436,53,97.8,89.2
+P09,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,471,401,70,94.2,85.1
+P09,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,486,425,61,97.2,87.4
+P09,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,474,392,82,94.8,82.7
+P10,StarCoder2,open-source code model,0-shot,0,method-level,500,473,350,123,94.6,74.0
+P10,StarCoder2,open-source code model,0-shot,0,class-level,500,468,351,117,93.6,75.0
+P10,StarCoder2,open-source code model,1-shot,1,method-level,500,453,313,140,90.6,69.1
+P10,StarCoder2,open-source code model,1-shot,1,class-level,500,465,329,136,93.0,70.8
+P10,StarCoder2,open-source code model,3-shot,3,method-level,500,463,347,116,92.6,74.9
+P10,StarCoder2,open-source code model,3-shot,3,class-level,500,468,333,135,93.6,71.2
+P10,StarCoder2,open-source code model,5-shot,5,method-level,500,471,341,130,94.2,72.4
+P10,StarCoder2,open-source code model,5-shot,5,class-level,500,455,331,124,91.0,72.7
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,method-level,500,468,380,88,93.6,81.2
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,0-shot,0,class-level,500,468,380,88,93.6,81.2
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,method-level,500,474,386,88,94.8,81.4
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,1-shot,1,class-level,500,473,369,104,94.6,78.0
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,method-level,500,478,385,93,95.6,80.5
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,3-shot,3,class-level,500,471,377,94,94.2,80.0
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,method-level,500,467,363,104,93.4,77.7
+P10,Qwen2.5-Coder-32B-Instruct,open-weight code-specialized model,5-shot,5,class-level,500,473,357,116,94.6,75.5
+P10,Claude Sonnet,closed-source frontier model,0-shot,0,method-level,500,475,413,62,95.0,86.9
+P10,Claude Sonnet,closed-source frontier model,0-shot,0,class-level,500,474,390,84,94.8,82.3
+P10,Claude Sonnet,closed-source frontier model,1-shot,1,method-level,500,473,389,84,94.6,82.2
+P10,Claude Sonnet,closed-source frontier model,1-shot,1,class-level,500,468,381,87,93.6,81.4
+P10,Claude Sonnet,closed-source frontier model,3-shot,3,method-level,500,474,393,81,94.8,82.9
+P10,Claude Sonnet,closed-source frontier model,3-shot,3,class-level,500,480,405,75,96.0,84.4
+P10,Claude Sonnet,closed-source frontier model,5-shot,5,method-level,500,473,412,61,94.6,87.1
+P10,Claude Sonnet,closed-source frontier model,5-shot,5,class-level,500,478,381,97,95.6,79.7
+P10,GPT-4o,closed-source frontier model,0-shot,0,method-level,500,468,408,60,93.6,87.2
+P10,GPT-4o,closed-source frontier model,0-shot,0,class-level,500,477,417,60,95.4,87.4
+P10,GPT-4o,closed-source frontier model,1-shot,1,method-level,500,484,414,70,96.8,85.5
+P10,GPT-4o,closed-source frontier model,1-shot,1,class-level,500,484,430,54,96.8,88.8
+P10,GPT-4o,closed-source frontier model,3-shot,3,method-level,500,492,428,64,98.4,87.0
+P10,GPT-4o,closed-source frontier model,3-shot,3,class-level,500,464,419,45,92.8,90.3
+P10,GPT-4o,closed-source frontier model,5-shot,5,method-level,500,472,427,45,94.4,90.5
+P10,GPT-4o,closed-source frontier model,5-shot,5,class-level,500,480,409,71,96.0,85.2

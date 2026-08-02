@@ -1,0 +1,12 @@
+"config","mean","median","sd","n"
+"Diff + ErrLog",39.7,38.4,11.8188173877273,10
+"Diff + ErrLog + Expl (Claude 3.5 Sonnet)",66.7,67.3,12.9354809213522,10
+"Diff + ErrLog + Expl (GPT-4o)",70.8,66.15,17.2673101553195,10
+"Diff + ErrLog + Expl (Llama 3 (8B))",58.1,56.4,19.8776256127335,10
+"Diff + ErrLog + Expl + RAG (Claude 3.5 Sonnet)",64.2,66.6,15.4754285526731,10
+"Diff + ErrLog + Expl + RAG (GPT-4o)",67.3,71.2,21.8391595279875,10
+"Diff + ErrLog + Expl + RAG (Llama 3 (8B))",53.7,58.95,11.2439613422791,10
+"Diff + RAG",36.9,38.3,5.9121344143493,10
+"Diff only",23.6,23.65,7.90175789161992,10
+"Expl only (GPT-4o)",34.6,33.9,15.2121296631632,10
+"RAG only",25.6,26.3,6.13605012293015,10
